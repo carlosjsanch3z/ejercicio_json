@@ -9,4 +9,5 @@ with open("/home/charlie/Escritorio/GitHub/ejercicio_json/hoteles.json") as fich
 	datos = json.load(fichero)
 
 for d in datos["resources"]:
-	print d["dc:title"]
+	if d["dc:title"][0:5] == "**** ":
+		print d["dc:title"]

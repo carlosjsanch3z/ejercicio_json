@@ -23,8 +23,9 @@ for d in datos["resources"]:
 	if d["lpgc:precio"] == "medio" or d["lpgc:precio"] == "Precio medio":
 		normales.append(d["dc:title"])
 
-	if d["lpgc:precio"] == "Económico" or d["lpgc:precio"] == " Precio Económico":
+	if d["lpgc:precio"].encode('utf-8') == "Económico" or d["lpgc:precio"].encode('utf-8') == " Precio Económico":
 		baratos.append(d["dc:title"])
+
 
 for n in baratos:
 	print n

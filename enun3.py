@@ -27,5 +27,14 @@ for d in datos["resources"]:
 		baratos.append(d["dc:title"])
 
 
-for n in baratos:
-	print n
+if var == "caro":
+	for c in caros:
+		print c
+elif var == "normal":
+	for n in normales:
+		print n
+elif var == "barato":
+	for b in baratos:
+		print b
+else:
+	print "No ha introducido bien la opción"

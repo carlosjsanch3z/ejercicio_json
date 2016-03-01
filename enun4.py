@@ -13,15 +13,6 @@ with open("hoteles.json") as fichero:
 var = raw_input("Los dos últimos números del telefono: ")
 
 for d in datos["resources"]:
-	#if d["lpgc:telefono"][-2:] == var:
-	#print d["lpgc:telefono"][-6:] #d["dc:title"] + "  " + 
-	#if d["lpgc:telefono"][-4:] == "4\n ":
-	print d["lpgc:telefono"]
+	if d["lpgc:telefono"][-2:] == var:
+		print "Hotel: " + d["dc:title"] + " | Phone: " + d["lpgc:telefono"] 
 
-
-# 5670  "
-# 1266  "
-# 7704  "
-# 76254 "
-# 30627 "
-# 2881  "

@@ -13,5 +13,6 @@ var = raw_input("Nombre del hotel o que empiece por tal cadena: ")
 
 for d in datos["resources"]:
 	if d["dc:title"].count("*") == 5:
-		hotel = d["dc:title"].lstrip("*****")
-		print hotel
+		d["dc:title"] = d["dc:title"].lstrip("*****")
+		if d["dc:title"].startswith(var):
+			print d["dc:title"]

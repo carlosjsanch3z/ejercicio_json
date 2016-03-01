@@ -344,7 +344,7 @@
         },
         {
             "dc:modified": "2016-02-21T10:26:29.415Z",
-            "lpgc:telefono": "+34 928265670\n ",
+            "lpgc:telefono": "+34 928265670",
             "lpgc:precio": "Económico",
             "id": "http://datosabiertos.laspalmasgc.es/api/datos/hoteles/62",
             "geo:long": "-15.43502639999997",
@@ -358,7 +358,7 @@
         },
         {
             "dc:modified": "2016-02-21T10:26:29.415Z",
-            "lpgc:telefono": "+34 828011266\n ",
+            "lpgc:telefono": "+34 828011266s",
             "lpgc:precio": "Económico",
             "id": "http://datosabiertos.laspalmasgc.es/api/datos/hoteles/63",
             "geo:long": "-15.425730899999962",
@@ -372,7 +372,7 @@
         },
         {
             "dc:modified": "2016-02-21T10:26:29.415Z",
-            "lpgc:telefono": "+34 928467704\n ",
+            "lpgc:telefono": "+34 928467704",
             "lpgc:precio": "Económico",
             "id": "http://datosabiertos.laspalmasgc.es/api/datos/hoteles/64",
             "geo:long": "-15.428399899999931",
@@ -386,7 +386,7 @@
         },
         {
             "dc:modified": "2016-02-21T10:26:29.415Z",
-            "lpgc:telefono": "+34 928276254\n",
+            "lpgc:telefono": "+34 928276254",
             "lpgc:precio": "Económico",
             "id": "http://datosabiertos.laspalmasgc.es/api/datos/hoteles/65",
             "geo:long": "-15.438484000000017",
@@ -596,7 +596,7 @@
         },
         {
             "dc:modified": "2016-02-21T10:26:29.415Z",
-            "lpgc:telefono": "+34 928230627\n",
+            "lpgc:telefono": "+34 928230627",
             "lpgc:precio": "Económico",
             "id": "http://datosabiertos.laspalmasgc.es/api/datos/hoteles/81",
             "geo:long": "-15.431188900000052",
@@ -610,7 +610,7 @@
         },
         {
             "dc:modified": "2016-02-21T10:26:29.415Z",
-            "lpgc:telefono": "+34928322881\n ",
+            "lpgc:telefono": "+34928322881",
             "lpgc:precio": "Económico",
             "id": "http://datosabiertos.laspalmasgc.es/api/datos/hoteles/82",
             "geo:long": "-15.417207800000028",

@@ -15,8 +15,8 @@ var = raw_input("Los dos últimos números del telefono: ")
 for d in datos["resources"]:
 	#if d["lpgc:telefono"][-2:] == var:
 	#print d["lpgc:telefono"][-6:] #d["dc:title"] + "  " + 
-	if d["lpgc:telefono"][-4:] == "4\n ":
-		print d["dc:title"]
+	#if d["lpgc:telefono"][-4:] == "4\n ":
+	print d["lpgc:telefono"]
 
 
 # 5670  "

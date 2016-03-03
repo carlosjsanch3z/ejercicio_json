@@ -49,7 +49,7 @@ for d in datos["resources"]:
 		value = d["lpgc:web"]
 		hoteles[key] = value
 
-#Buscar si la variable coincide con una key y mostrar su value , los hoteles que no tengan url, mostrarán otro mensaje
+#Buscar si la variable coincide con una key o empieza por dicha cadena y mostrar su value , los hoteles que no tengan url, mostrarán otro mensaje
 	
 for k, v in hoteles.items():
 	

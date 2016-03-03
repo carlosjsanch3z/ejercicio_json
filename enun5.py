@@ -10,7 +10,8 @@ import json
 with open("hoteles.json") as fichero:
 	datos = json.load(fichero)
 
-var = raw_input("Nombre del hotel o que empiece por tal cadena: ").title()
+var = unicode(raw_input("Nombre del hotel o que empiece por tal cadena: "),'utf-8').title()
+
 
 #Recorrer y dejar los nombres sin las estrellas de delante
 #Almacenarlos en un diccionario
@@ -48,9 +49,10 @@ for d in datos["resources"]:
 		value = d["lpgc:web"]
 		hoteles[key] = value
 
-#Buscar si la variable coincide con una key y mostrar su value = urls
+#Buscar si la variable coincide con una key y mostrar su value , los hoteles que no tengan url, mostrarán otro mensaje
 	
 for k, v in hoteles.items():
+	
 	if k.startswith(var) and v == "":
 		print ""
 		print "La url del sitio web del hotel " + k + " --> " + "No esta disponible"
@@ -59,4 +61,4 @@ for k, v in hoteles.items():
 		print ""
 		print "La url del sitio web del hotel " + k + " --> " + v
 		print ""
-
+	

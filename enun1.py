@@ -5,7 +5,7 @@
 
 import json
 
-with open("/home/charlie/Escritorio/GitHub/ejercicio_json/hoteles.json") as fichero:
+with open("hoteles.json") as fichero:
 	datos = json.load(fichero)
 
 for d in datos["resources"]:
